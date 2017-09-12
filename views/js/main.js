@@ -423,9 +423,9 @@ var resizePizzas = function(size) {
   function pizzaClassSize(size) {
     switch(size) {
       case "1":
-        return "pizza-sm"
+        return "pizza-sm";
       case "2":
-        return "pizza-md"
+        return "pizza-md";
       case "3":
         return "pizza-lg";
     }
@@ -435,7 +435,7 @@ var resizePizzas = function(size) {
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
     var pizzaSize;
-    var pizzaSizeList = 'pizza-sm pizza-md pizza-lg'
+    var pizzaSizeList = 'pizza-sm pizza-md pizza-lg';
 
     //optimization: removed the pizza container selectore from the for loop and set it to a variable.
     // Width is now set via css and not calculated within the loop preventing Forced synchronous layout
@@ -533,7 +533,7 @@ function updatePizzaPositions() {
 }
 
 // runs updatePositions on scroll
-window.addEventListener('scroll', updateScrollPosition)
+window.addEventListener('scroll', updateScrollPosition);
 
 // Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function() {
@@ -548,7 +548,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    var pizzaContainer = document.getElementById('movingPizzas1')
+    var pizzaContainer = document.getElementById('movingPizzas1');
     pizzaContainer.appendChild(elem);
   }
   requestAnimationFrame(updatePizzaPositions);
