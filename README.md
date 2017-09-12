@@ -15,8 +15,12 @@ This project is the finished optimized website mobile portfolio. The contents ar
 9. $> grunt
 
 ### Pagespeed Insights
-note: make sure http://localhost:3000 is accessible before running
 
+GitHub Page : https://ddavisx.github.io/frontend-nanodegree-mobile-portfolio/
+
+The Repository public GitHub Page [can be tested here](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fddavisx.github.io%2Ffrontend-nanodegree-mobile-portfolio%2F&tab=desktop)  
+
+Note: To test on a local machine be sure http://localhost:3000 is accessible.
 1. Run desktop strategy
 2. $> grunt psi-desktop
 3. Run mobile strategy
