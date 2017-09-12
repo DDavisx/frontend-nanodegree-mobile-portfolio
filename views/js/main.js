@@ -539,8 +539,10 @@ window.addEventListener('scroll', updateScrollPosition);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
+  // calculate the number of pizzas needed to the nearest multiple of 6
+  pizzaNum =   Math.ceil((window.innerHeight / s * cols) / 6 ) * 6;
   //optimization: Reduced the number of pizza to draw. 200 pizza were well below the fold and not worth animating.
-  for (var i = 0; i < 32; i++) {
+  for (var i = 0; i < pizzaNum; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
