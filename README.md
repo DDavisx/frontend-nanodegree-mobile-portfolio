@@ -15,6 +15,7 @@ This project is the finished optimized website mobile portfolio. The contents ar
 9. $> grunt
 
 ### Pagespeed Insights
+note: make sure http://localhost:3000 is accessible before running
 
 1. Run desktop strategy
 2. $> grunt psi-desktop
