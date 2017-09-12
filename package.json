@@ -1,0 +1,24 @@
+{
+  "version": "1.0.1",
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "~1.1.0",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-dev-update": "^2.0.0",
+    "grunt-minify-html": "^3.0.0",
+    "grunt-pagespeed": "^2.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "ngrok": "^2.2.22"
+  },
+  "dependencies": {
+    "grunt-responsive-images": "^0.1.6"
+  }
+}
